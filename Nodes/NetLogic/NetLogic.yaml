@@ -52,7 +52,8 @@ Children:
     Name: ExportAlarms
   - Name: CSVPath
     Type: BaseDataVariableType
-    DataType: AbsoluteResourceUri
+    DataType: ResourceUri
+    Value: "ns=7;%PROJECTDIR%/MyAlarms.csv"
   - Name: CharacterSeparator
     Type: BaseDataVariableType
     DataType: String
@@ -60,7 +61,6 @@ Children:
   - Name: WrapFields
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
   - Name: ns=4;LibraryReference
     Type: ObjectLibraryReference
     DataType: ObjectLibraryReferenceDataType

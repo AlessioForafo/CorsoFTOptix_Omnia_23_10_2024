@@ -3,31 +3,25 @@ Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
 Children:
 - Name: DigitalAlarm1
-  Id: g=e44fa5a2c8b659512ef6c1fb8a8fed15
+  Id: g=8eb2465950cd4ec0ab800378174443c4
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=022bb4776dda3fd5b8ec50cc0e511758
+    Id: g=352a97321afe75bc0b60e756dca6b9e5
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=6196f0ba2e4add47f2c9d0dd2cd20e2c
+    Id: g=bd9c0cd136b780e37a787b78594b325b
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=c76018c152b20ede36144a38c1ba5827
+      Id: g=9a7c4b11735045c69b39b94dfda9ec24
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../Model/BitAlarms/Variable1"
-      Children:
-      - Name: Mode
-        Id: g=f1dcec0d439ef53229519a9dc37de37f
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
+      Value: "/Objects/CorsoFTOptix_Omnia_23_10_2024/Model/BitAlarms/Variable1"
   - Name: LastEvent
-    Id: g=5a3225d664bc8f228ea018d4d7a5d4ea
+    Id: g=0c7bc1ad776577b46e9f65f8e9bbbaae
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -51,51 +45,53 @@ Children:
     Target: ns=19;i=132
     Direction: Forward
   - Name: AutoAcknowledge
-    Id: g=1e03991ddf47fdf065e31fe2bc144695
+    Id: g=072c17b449eb052d88afc54b03b10a75
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: AutoConfirm
-    Id: g=de2ff4f68f6161adfc832765f70df37f
+    Id: g=1b1476b507f838033b9413aad3889602
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
-  - Name: Message
-    Id: g=7f0dba86dd464c0e2e734142de6778a6
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Error 1"}
   - Name: Severity
-    Id: g=bd854e9428c4aa9f9b8fc00a759e2cba
+    Id: g=6272a2bcdb22494ee0e731a878517186
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 1
+  - Name: Message
+    Id: g=852082a6c1f0b65bc714061702c7bf09
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Error 1"}
+  - Name: MaxTimeShelved
+    Id: g=bb4d71fdc585705cd5d5610772d149ef
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=9acce5934ccfe235369c153f64399b78
+    Type: BaseDataVariableType
+    DataType: Duration
 - Name: DigitalAlarm2
-  Id: g=a7825a05af49b7dd794824e250a54748
+  Id: g=b22a870dbb984ab2ba3c8325aaa29288
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=1efd2b15602207199b097e1a9d476518
+    Id: g=1992ca1006cf17513e7c3e3d27683d2c
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=d8fbbc09513ecfa61f7fd7647dd004b6
+    Id: g=5bca0c5725faabddc491688350814470
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=e10c4983e3b2b3a6ec436b62b33fd8ac
+      Id: g=7bb09b57d29e4ada813c1e8a422d669e
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../Model/BitAlarms/Variable2"
-      Children:
-      - Name: Mode
-        Id: g=5ec649bf192be4375ed9e74f89a44f28
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
+      Value: "/Objects/CorsoFTOptix_Omnia_23_10_2024/Model/BitAlarms/Variable2"
   - Name: LastEvent
-    Id: g=9eba3b68cb1a2f70d677eec96a360a02
+    Id: g=3fe7b7044949f41050afb3c3ca76cf5f
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -118,52 +114,54 @@ Children:
   - Class: Reference
     Target: ns=19;i=132
     Direction: Forward
-  - Name: Message
-    Id: g=d076797c26b92c3cef4487fa54a6cba0
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Error 2"}
-  - Name: AutoConfirm
-    Id: g=a861f12d31d70f24d1a3c25b31a7313d
+  - Name: AutoAcknowledge
+    Id: g=e7b64c7ad7d4c8a665516d2f26b71917
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
-  - Name: AutoAcknowledge
-    Id: g=372de2d3f2220122b4b0e6ede914d123
+  - Name: AutoConfirm
+    Id: g=dfcfdbec98641dff7d42f3c81f725f7a
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: Severity
-    Id: g=ab9273a99b48d90c25c769cafc8858c5
+    Id: g=36d59c42bc57be54add58a0b7b56d715
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 2
+  - Name: Message
+    Id: g=28f166b42f7c67f7ca283cd72f6d30e3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Error 2"}
+  - Name: MaxTimeShelved
+    Id: g=51411356cab6a42f224aa00650d82da3
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=65296f2ba17409b0516509442a7c5169
+    Type: BaseDataVariableType
+    DataType: Duration
 - Name: DigitalAlarm3
-  Id: g=697a426a7e4b11471b45d59dea6e8e84
+  Id: g=94e6ba895dcd4bb0b29c700c8c89da7f
   Type: OffNormalAlarmController
   Children:
   - Name: NormalStateValue
-    Id: g=f6d5787b05fc2be7e27669d564f28dab
+    Id: g=6252888f73c7dae68d32d6d7508952bd
     Type: BaseDataVariableType
     DataType: Double
   - Name: InputValue
-    Id: g=71bcf560b28903ebfbff2b7d1b6d361d
+    Id: g=c43c9093f0e12ab2ba6cd67485b79991
     Type: BaseDataVariableType
     DataType: Double
     Children:
     - Name: DynamicLink
-      Id: g=c1a80aefbddac9ddc5d6e8aed37102d9
+      Id: g=9ff4bbac28e848409038f7c4893b702f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../Model/BitAlarms/Variable3"
-      Children:
-      - Name: Mode
-        Id: g=3b5d537665c722597338ec39234b4cba
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
+      Value: "/Objects/CorsoFTOptix_Omnia_23_10_2024/Model/BitAlarms/Variable3"
   - Name: LastEvent
-    Id: g=c0376314e4bf1287a2622039e3b452e9
+    Id: g=fb8003a5813a37df9b150f2e88cd90cb
     Type: BaseDataVariableType
     DataType: BaseDataType
     ValueRank: OneDimension
@@ -186,23 +184,65 @@ Children:
   - Class: Reference
     Target: ns=19;i=132
     Direction: Forward
-  - Name: Message
-    Id: g=c0237ccb4fca25e7055e7b5eb419b77d
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Error 3"}
-  - Name: AutoConfirm
-    Id: g=aa07d362cfe3e62413040b0eaaa8034d
+  - Name: AutoAcknowledge
+    Id: g=f56cb9147920079b6577157c60cede90
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
-  - Name: AutoAcknowledge
-    Id: g=924ff184c66b35931fc0117fa341ce34
+  - Name: AutoConfirm
+    Id: g=00cab429c9e4982cc5df3dcc3d0a9295
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: Severity
-    Id: g=389c078e53defcd1561409b5ee97476f
+    Id: g=6572e69a1b1a5020d723a5dee36771ef
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 3
+  - Name: Message
+    Id: g=ef424f039806d6ba463e5fe6cc99c67a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Error 3"}
+    Children:
+    - Name: StringFormatter1
+      Id: g=abc170d4d2a4a02c3a45a8a387f695af
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=4ae7e7934e5760827f45468a1658e092
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"Temperature: {0}"}
+      - Name: ns=2;Source0
+        Id: g=b0bfc3486e0173b0156f984bb1002e39
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=46bd0743248a22a5d86ed12ea374844b
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../Model/Variable1"
+          Children:
+          - Name: IsPull
+            Id: g=bb8a99abb8396b7ab6d218c765069f26
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Id: g=f1055b82ad693ef1f7afe658b9e476a3
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: MaxTimeShelved
+    Id: g=6cb02992b7abb62cbfff4e32e3ec5422
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=a86300d5c00c5283ab8aa0986cc6f493
+    Type: BaseDataVariableType
+    DataType: Duration

@@ -2,11 +2,14 @@ Name: BitAlarms
 Type: FolderType
 Children:
 - Name: Variable2
+  Id: g=ffecd338e58cc9679b9db16d9f1d8823
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Variable3
+  Id: g=94a7d14f4ab3be480cbed3423f7dbdb3
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Variable1
+  Id: g=8269c4081de5aa8090a4572da31faee4
   Type: BaseDataVariableType
   DataType: Boolean
