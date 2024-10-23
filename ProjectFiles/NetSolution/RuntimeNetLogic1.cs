@@ -12,6 +12,10 @@ using FTOptix.NetLogic;
 using FTOptix.CODESYS;
 using FTOptix.CommunicationDriver;
 using FTOptix.MicroController;
+using FTOptix.Alarm;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class RuntimeNetLogic1 : BaseNetLogic

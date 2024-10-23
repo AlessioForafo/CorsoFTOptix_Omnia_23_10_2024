@@ -56,9 +56,9 @@ Children:
 - File: DataStores/DataStores.yaml
 - File: Reports/Reports.yaml
 - File: 'OPC-UA/OPC-UA.yaml'
-- File: CommDrivers/CommDrivers.yaml
 - File: NetLogic/NetLogic.yaml
 - File: Security/Security.yaml
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- File: CommDrivers/CommDrivers.yaml

@@ -38,3 +38,5 @@ Children:
   Id: g=f1d7a08a4da6da67b7938e49e1332a1b
   Type: BaseDataVariableType
   DataType: Int32
+- File: EventsExamples/EventsExamples.yaml
+- File: BitAlarms/BitAlarms.yaml

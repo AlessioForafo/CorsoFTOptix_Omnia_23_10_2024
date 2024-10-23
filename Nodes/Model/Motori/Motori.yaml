@@ -1,9 +1,11 @@
 Name: Motori
+Id: g=b1abe2213f2b60e0176b0b3d74274302
 Type: FolderType
 Children:
 - Name: MotorePLC1
   Id: g=a1f8a2f764605f55ea90a37ddbb3a72a
   Type: MotorePLC
+  DisplayName: {"LocaleId":"en-US","Text":"DN Motor 1"}
   Children:
   - Name: Speed
     Type: BaseDataVariableType
@@ -20,6 +22,7 @@ Children:
 - Name: MotorePLC2
   Id: g=413a782b019592878f450c87ed8d75f0
   Type: MotorePLC
+  DisplayName: {"LocaleId":"en-US","Text":"DN Motor 2"}
   Children:
   - Name: Speed
     Type: BaseDataVariableType
@@ -34,6 +37,7 @@ Children:
     DataType: Boolean
 - Name: MotorePLC3
   Type: MotorePLC
+  DisplayName: {"LocaleId":"en-US","Text":"DN Motor 3"}
   Children:
   - Name: Speed
     Type: BaseDataVariableType
