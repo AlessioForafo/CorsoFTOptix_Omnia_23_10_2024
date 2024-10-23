@@ -1,0 +1,49 @@
+Name: Motori
+Type: FolderType
+Children:
+- Name: MotorePLC1
+  Id: g=a1f8a2f764605f55ea90a37ddbb3a72a
+  Type: MotorePLC
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: MotorePLC2
+  Id: g=413a782b019592878f450c87ed8d75f0
+  Type: MotorePLC
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 60
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: MotorePLC3
+  Type: MotorePLC
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 90
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 55
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

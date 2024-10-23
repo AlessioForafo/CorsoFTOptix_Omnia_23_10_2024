@@ -1,0 +1,18 @@
+Name: TagImporter
+Type: CODESYSTagImporter
+OwnerId: ns=2;g=c2a5e7cb0deee0cfe1b4a8c4f5262a47
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchProviderModes
+  Value: 1

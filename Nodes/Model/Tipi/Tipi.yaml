@@ -1,0 +1,16 @@
+Name: Tipi
+Type: FolderType
+Children:
+- Name: MotorePLC
+  Id: g=4b2b74f33d786a5b32eb471b305c330b
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean

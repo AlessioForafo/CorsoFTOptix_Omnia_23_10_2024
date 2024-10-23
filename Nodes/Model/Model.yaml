@@ -1,2 +1,40 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: Avvio
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/bStart"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Incremento
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/CODESYSDriver1/CODESYSStation1/Tags/Application/PLC_PRG/incrementa"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- File: VariabiliPLC/VariabiliPLC.yaml
+- File: Motori/Motori.yaml
+- File: Tipi/Tipi.yaml
+- Name: Variable1
+  Id: g=bf2aa24edc38e380cdf7c53d55118528
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=f1d7a08a4da6da67b7938e49e1332a1b
+  Type: BaseDataVariableType
+  DataType: Int32
